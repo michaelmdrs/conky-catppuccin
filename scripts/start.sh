@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-killall conky
+killall conky 2>/dev/null
 
-sleep 2
+sleep 1
 
-conky -c ~/Projetos/catppuccin-conky/config/conky.conf &
+conky -c "$HOME/.config/conky-catppuccin/config/conky.conf" &

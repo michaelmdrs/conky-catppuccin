@@ -2,15 +2,17 @@ return {
 
 	width = 360,
 
-	height = 600,
+	height = 640,
 
-	gap_x = 50,
+	gap_x = 55,
 
-	gap_y = 40,
+	gap_y = 45,
 
-	title_size = 34,
+	title = 34,
 
-	text_size = 11,
+	subtitle = 16,
 
-	spacing = 12,
+	body = 11,
+
+	widget_spacing = 16,
 }
