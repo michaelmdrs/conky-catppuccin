@@ -31,3 +31,7 @@ ${color}${time %d %B %Y}
 
 ]]
 end
+
+function conky_project_version()
+	return "Sprint 2"
+end

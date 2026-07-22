@@ -1,4 +1,4 @@
-return {
+return {
 
     text = "CDD6F4",
 
@@ -14,10 +14,10 @@ return {
 
     pink = "F5C2E7",
 
-    lavender = "B4BEFE",
-
     surface = "313244",
 
-    overlay = "45475A"
+    background = "1E1E2E",
+
+    border = "45475A"
 
 }
