@@ -1,18 +1,31 @@
 # Catppuccin Conky
 
-Dashboard minimalista desenvolvido para Debian 13 + XFCE.
+Um dashboard minimalista para Debian 13 (Trixie) e XFCE.
 
-## Objetivos
+## Preview
 
-- Interface minimalista
-- Código modular
-- Fácil manutenção
-- Instalação simples
+(Imagem será adicionada)
+
+## Recursos
+
+- Relógio
+- CPU
+- RAM
+- Disco
+- Temperatura
+- Bateria
+- Wi-Fi
 
 ## Roadmap
 
-- [x] Sprint 1 - Dashboard funcional
-- [ ] Sprint 2 - Refatoração
-- [ ] Sprint 3 - Widgets Lua
-- [ ] Sprint 4 - Rings Cairo
-- [ ] Sprint 5 - Empacotamento
+- [x] Sprint 1
+- [ ] Sprint 2
+- [ ] Sprint 3
+- [ ] Sprint 4
+
+## Requisitos
+
+- Debian 13
+- Conky 1.22+
+- lm-sensors
+- Nerd Fonts

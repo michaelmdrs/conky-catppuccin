@@ -1,2 +1,20 @@
+# Arquivos temporários
 *.log
 *.cache
+*.tmp
+*.bak
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Screenshots temporários
+screenshots/tmp/
+
+# Cache do Conky
+.cache/
+
+# Arquivos de editor
+.vscode/
+.idea/
