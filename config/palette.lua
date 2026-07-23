@@ -1,22 +1,19 @@
-return {
+local M = {}
 
-	text = "CDD6F4",
+M.text = "CDD6F4"
 
-	blue = "89B4FA",
+M.cpu = "89B4FA"
 
-	cyan = "94E2D5",
+M.memory = "CBA6F7"
 
-	green = "A6E3A1",
+M.disk = "F9E2AF"
 
-	yellow = "F9E2AF",
+M.temp = "F38BA8"
 
-	red = "F38BA8",
+M.battery = "A6E3A1"
 
-	pink = "F5C2E7",
+M.network = "94E2D5"
 
-	lavender = "B4BEFE",
+M.surface = "313244"
 
-	surface = "313244",
-
-	background = "1E1E2E",
-}
+return M

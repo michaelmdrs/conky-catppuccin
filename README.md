@@ -29,3 +29,19 @@ Um dashboard minimalista para Debian 13 (Trixie) e XFCE.
 - Conky 1.22+
 - lm-sensors
 - Nerd Fonts
+
+## Estrutura
+
+```text
+config/
+    Configurações
+
+lua/
+    Lógica do dashboard
+
+scripts/
+    Inicialização
+
+assets/
+    Recursos visuais
+```

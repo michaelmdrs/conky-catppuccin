@@ -1,3 +1,10 @@
+local palette = require("config.palette")
+local layout = require("config.layout")
+
+function conky_dashboard_version()
+	return "v0.2.0"
+end
+
 function dashboard()
 	return [[
 

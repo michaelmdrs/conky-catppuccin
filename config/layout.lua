@@ -1,18 +1,17 @@
-return {
+local M = {}
 
-	width = 360,
+M.width = 360
+M.height = 700
 
-	height = 640,
+M.margin_left = 50
+M.margin_top = 40
 
-	gap_x = 55,
+M.spacing = 32
 
-	gap_y = 45,
+M.font = "JetBrainsMono Nerd Font"
 
-	title = 34,
+M.title = 38
+M.subtitle = 15
+M.text = 12
 
-	subtitle = 16,
-
-	body = 11,
-
-	widget_spacing = 16,
-}
+return M
