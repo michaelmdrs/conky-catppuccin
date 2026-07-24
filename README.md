@@ -4,7 +4,7 @@ Um dashboard minimalista para Debian 13 (Trixie) e XFCE.
 
 ## Preview
 
-![Sprint 1](screenshots/sprint-01.png)
+![Sprint 1](screenshots/sprint-02.png)
 
 ## Recursos
 
@@ -19,7 +19,7 @@ Um dashboard minimalista para Debian 13 (Trixie) e XFCE.
 ## Roadmap
 
 - [x] Sprint 1
-- [ ] Sprint 2
+- [x] Sprint 2
 - [ ] Sprint 3
 - [ ] Sprint 4
 
