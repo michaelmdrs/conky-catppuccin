@@ -1,7 +1,7 @@
-local Widgets = {}
+local widgets = {}
 
-function Widgets.section(title)
-	return string.format("${color}%s${color}\n", title)
+function widgets.separator()
+	return "────────────────────────"
 end
 
-return Widgets
+return widgets

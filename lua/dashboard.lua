@@ -1,44 +1,9 @@
-local palette = require("config.palette")
-local layout = require("config.layout")
+package.path = package.path .. ";" .. os.getenv("HOME") .. "/.config/conky-catppuccin/lua/?.lua"
 
-function conky_dashboard_version()
-	return "v0.2.0"
-end
-
-function dashboard()
-	return [[
-
-${font JetBrainsMono Nerd Font:size=34:bold}
-
-${time %H:%M}
-
-${font}
-
-${color 89B4FA}
-
-${time %A}
-
-${color}
-
-${time %d %B %Y}
-
-]]
-end
+local theme = require("theme")
+local widgets = require("widgets")
+local system = require("system")
 
 function conky_dashboard()
-	return [[
-
-${font JetBrainsMono Nerd Font:size=34:bold}
-${time %H:%M}
-${font}
-
-${color 89B4FA}${time %A}
-
-${color}${time %d %B %Y}
-
-]]
-end
-
-function conky_project_version()
-	return "Sprint 2"
+	return widgets.separator()
 end
