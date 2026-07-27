@@ -20,4 +20,8 @@ function System.battery()
 	return "${battery_percent BAT0}%"
 end
 
+function System.temperature()
+	return "${execi 5 sensors | awk '/Package id 0:/ {print $4}'}"
+end
+
 return System
